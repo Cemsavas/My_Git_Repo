@@ -1,0 +1,24 @@
+GIT KOMUTLARI
+Öncelikle GitHubta repository oluştur.
+-Kullanıcı adı tanımlama
+git config --global user.name "cemsavas"
+-Kullanıcı mail tanımlama
+git config --global user.email "cemsavas1986@hotmail.com"
+-Projeyi Git hale dönüştürme
+git init
+-Projeyi sahmeye alma (Staging)
+git add .
+-Proje durumunu sorgulama
+git status
+-Commitleme
+git commit -m "ne yaptığını yaz"
+-Uzak servera bağlanma
+git remote add origin url(GitHub repository)
+-Projeyi Push etme
+git push url(GitHub repository)
+-Projeyi indirme
+git pull
+-proje dosyası silme
+git rm
+-Commit geçmişini görme
+git log
