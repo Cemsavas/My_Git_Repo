@@ -1,19 +1,19 @@
 GIT KOMUTLARI
-Öncelikle GitHubta repository oluştur.
+Öncelikle GitHubta repository oluştur.Boş bir repository github.com üzerinden. sadece isim yaz
 -Kullanıcı adı tanımlama
 git config --global user.name "cemsavas"
 -Kullanıcı mail tanımlama
 git config --global user.email "cemsavas1986@hotmail.com"
 -Projeyi Git hale dönüştürme
 git init
+-Uzak servera bağlanma
+git remote add origin url(GitHub repository)
 -Projeyi sahmeye alma (Staging)
 git add .
 -Proje durumunu sorgulama
 git status
 -Commitleme
 git commit -m "ne yaptığını yaz"
--Uzak servera bağlanma
-git remote add origin url(GitHub repository)
 -Projeyi Push etme
 git push url(GitHub repository)
 -Projeyi indirme
@@ -22,3 +22,5 @@ git pull
 git rm
 -Commit geçmişini görme
 git log
+-Branch değiştirmek için
+git branch -M main veya master
